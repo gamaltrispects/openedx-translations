@@ -17905,7 +17905,7 @@ msgstr ""
 
 #: lms/templates/preview_menu.html:59
 msgid "View this course as:"
-msgstr ""
+msgstr "View this policy as:"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:170
 #: lms/templates/preview_menu.html:61
@@ -22036,7 +22036,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:120
 msgid "View Course in Studio"
-msgstr ""
+msgstr "View Policy in Studio"
 
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:5
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:17
@@ -22781,7 +22781,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:7
 msgid "My Courses"
-msgstr ""
+msgstr "My Policies"
 
 #: lms/templates/lti_provider/user-auth-error.html:11
 msgid "There was an error when loading this module!"
@@ -22822,7 +22822,7 @@ msgstr ""
 
 #: lms/templates/navigation/navbar-not-authenticated.html:33
 msgid "Explore Courses"
-msgstr ""
+msgstr "Explore Policies"
 
 #: lms/templates/navigation/navigation.html:44
 msgid "Global"
@@ -23216,11 +23216,11 @@ msgstr ""
 
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:45
 msgid "Search the course"
-msgstr ""
+msgstr "Search the policy"
 
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:51
 msgid "Start Course"
-msgstr ""
+msgstr "Start Policy"
 
 #: lms/templates/verify_student/_verification_help.html:9
 msgid "Have questions?"
@@ -23383,7 +23383,7 @@ msgstr ""
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html:18
 msgid "View all course dates"
-msgstr ""
+msgstr "View all policy dates"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:20
 msgid "Learn About Verified Certificates"
@@ -23509,7 +23509,7 @@ msgstr ""
 
 #: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:58
 msgid "Explore New Courses"
-msgstr ""
+msgstr "Explore New Policies"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:16
 msgid "Learner Profile"
