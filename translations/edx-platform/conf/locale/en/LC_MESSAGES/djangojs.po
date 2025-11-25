@@ -240,7 +240,7 @@ msgstr ""
 
 #: cms/static/js/factories/manage_users.js:11
 msgid "Already a course team member"
-msgstr ""
+msgstr "Already a policy team member"
 
 #: cms/static/js/factories/manage_users.js:13
 msgid ""
@@ -310,7 +310,7 @@ msgstr ""
 
 #: cms/static/js/features/import/factories/import.js:58
 msgid "There was an error while importing the new course to our database."
-msgstr ""
+msgstr "There was an error while importing the new policy to our database."
 
 #: cms/static/js/features/import/factories/import.js:121
 msgid "Your import has failed."
@@ -322,7 +322,7 @@ msgstr ""
 
 #: cms/static/js/features/import/views/import.js:253
 msgid "Error importing course"
-msgstr ""
+msgstr "Error importing policy"
 
 #: cms/static/js/features/import/views/import.js:298
 msgid "There was an error with the upload"
@@ -406,15 +406,15 @@ msgstr ""
 
 #: cms/static/js/models/settings/course_details.js:59
 msgid "The course must have an assigned start date."
-msgstr ""
+msgstr "The policy must have an assigned start date."
 
 #: cms/static/js/models/settings/course_details.js:63
 msgid "The course end date must be later than the course start date."
-msgstr ""
+msgstr "The policy end date must be later than the course start date."
 
 #: cms/static/js/models/settings/course_details.js:68
 msgid "The course start date must be later than the enrollment start date."
-msgstr ""
+msgstr "The policy start date must be later than the enrollment start date."
 
 #: cms/static/js/models/settings/course_details.js:74
 msgid "The enrollment start date cannot be after the enrollment end date."
@@ -422,11 +422,11 @@ msgstr ""
 
 #: cms/static/js/models/settings/course_details.js:78
 msgid "The enrollment end date cannot be after the course end date."
-msgstr ""
+msgstr "The enrollment end date cannot be after the policy end date."
 
 #: cms/static/js/models/settings/course_details.js:83
 msgid "The certificate available date must be later than the course end date."
-msgstr ""
+msgstr "The certificate available date must be later than the policy end date."
 
 #: cms/static/js/models/settings/course_details.js:94
 msgid "The certificate display behavior must be one of: {behavior_options}"
@@ -714,7 +714,7 @@ msgstr ""
 #: cms/static/js/views/pages/container.js:325
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
-msgstr ""
+msgstr "The following required files could not be added to the policy:"
 
 #: cms/static/js/views/course_outline.js:402
 #: cms/static/js/views/pages/container.js:333
@@ -740,7 +740,7 @@ msgstr ""
 #: cms/static/js/views/pages/container.js:347
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
-msgstr ""
+msgstr "The following required files were imported to this policy:"
 
 #: cms/static/js/views/course_outline.js:421
 #: cms/static/js/views/pages/container.js:352
@@ -872,7 +872,7 @@ msgstr ""
 
 #: cms/static/js/views/export.js:344
 msgid "Take me to the main course page"
-msgstr ""
+msgstr "Take me to the main policy page"
 
 #: cms/static/js/views/export.js:346
 msgid "The raw error message is:"
@@ -1113,7 +1113,7 @@ msgstr ""
 
 #: cms/static/js/views/modals/course_outline_modals.js:279
 msgid "Enable Course Highlight Emails"
-msgstr ""
+msgstr "Enable Policy Highlight Emails"
 
 #: cms/static/js/views/modals/course_outline_modals.js:297
 msgid "Enable"
@@ -1264,7 +1264,7 @@ msgstr ""
 #: cms/templates/js/group-configuration-details.underscore:88
 #: cms/templates/js/partition-group-details.underscore:63
 msgid "Course Outline"
-msgstr ""
+msgstr "Policy Outline"
 
 #: cms/static/js/views/paged_container.js:260
 msgid "Date added"
@@ -1328,11 +1328,11 @@ msgstr ""
 
 #: cms/static/js/views/pages/course_outline.js:248
 msgid "Course Index"
-msgstr ""
+msgstr "Policy Index"
 
 #: cms/static/js/views/pages/course_outline.js:256
 msgid "There were errors reindexing course."
-msgstr ""
+msgstr "There were errors reindexing policy."
 
 #: cms/static/js/views/pages/paged_container.js:46
 msgid "Hide Previews"
@@ -1437,15 +1437,15 @@ msgstr ""
 
 #: cms/static/js/views/settings/main.js:62
 msgid "Course Credit Requirements"
-msgstr ""
+msgstr "Policy Credit Requirements"
 
 #: cms/static/js/views/settings/main.js:63
 msgid "The minimum grade for course credit is not set."
-msgstr ""
+msgstr "The minimum grade for policy credit is not set."
 
 #: cms/static/js/views/settings/main.js:155
 msgid "Course pacing cannot be changed once a course has started."
-msgstr ""
+msgstr "Policy pacing cannot be changed once a policy has started."
 
 #: cms/static/js/views/settings/main.js:223
 msgid "{hours}:{minutes} (current UTC time)"
@@ -1453,7 +1453,7 @@ msgstr ""
 
 #: cms/static/js/views/settings/main.js:460
 msgid "Upload your course image."
-msgstr ""
+msgstr "Upload your policy image."
 
 #: cms/static/js/views/settings/main.js:466
 msgid "Upload your banner image."
@@ -2301,7 +2301,7 @@ msgstr ""
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:17
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:43
 msgid "Course Name"
-msgstr ""
+msgstr "Policy Name"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:20
 msgid ""
@@ -2311,7 +2311,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:30
 msgid "Not specific to a course"
-msgstr ""
+msgstr "Not specific to a policy"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:50
 #: lms/static/js/instructor_dashboard/util.js:200
@@ -2338,7 +2338,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:56
 msgid "Course Content"
-msgstr ""
+msgstr "Policy Content"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:57
 msgid "Deadlines"
@@ -2367,7 +2367,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:73
 msgid "Course Discussion Forum"
-msgstr ""
+msgstr "Policy Discussion Forum"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:90
 msgid ""
@@ -3061,11 +3061,11 @@ msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:128
 msgid " learners already appear on the exception list in this course"
-msgstr ""
+msgstr " learners already appear on the exception list in this policy"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:129
 msgid " learner already appears on the exception list in this course"
-msgstr ""
+msgstr " learners already appears on the exception list in this policy"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:134
 msgid ""
@@ -3215,7 +3215,7 @@ msgstr ""
 #: lms/static/js/discovery/views/search_form.js:47
 #, javascript-format
 msgid "Viewing %s course"
-msgid_plural "Viewing %s courses"
+msgid_plural "Viewing %s policies"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -3264,7 +3264,7 @@ msgstr ""
 
 #: lms/static/js/discussions_management/views/discussions.js:182
 msgid "Discussion topics in the course are not divided."
-msgstr ""
+msgstr "Discussion topics in the policy are not divided."
 
 #: lms/static/js/discussions_management/views/discussions.js:185
 msgid "Any divided discussion topics are divided based on enrollment track."
@@ -3323,7 +3323,7 @@ msgstr ""
 
 #: lms/static/js/edxnotes/views/tabs/course_structure.js:52
 msgid "Location in Course"
-msgstr ""
+msgstr "Location in Policy"
 
 #: lms/static/js/edxnotes/views/tabs/recent_activity.js:30
 msgid "Recent Activity"
@@ -3509,15 +3509,15 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/certificates.js:20
 msgid "Allow students to generate certificates for this course?"
-msgstr ""
+msgstr "Allow students to generate certificates for this policy?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:22
 msgid "Prevent students from generating certificates in this course?"
-msgstr ""
+msgstr "Prevent students from generating certificates in this policy?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:45
 msgid "Start generating certificates for all students in this course?"
-msgstr ""
+msgstr "Start generating certificates for all students in this policy?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:61
 msgid "Error while generating certificates. Please try again."
@@ -3525,7 +3525,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/certificates.js:71
 msgid "Start regenerating certificates for students in this course?"
-msgstr ""
+msgstr "Start regenerating certificates for students in this policy?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:98
 msgid "Error while regenerating certificates. Please try again."
@@ -3804,7 +3804,7 @@ msgstr ""
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:852
 msgid "The following users are no longer enrolled in the course:"
-msgstr ""
+msgstr "The following users are no longer enrolled in the policy:"
 
 #: lms/static/js/instructor_dashboard/membership.js:863
 msgid ""
@@ -3835,11 +3835,11 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/send_email.js:87
 msgid "Everyone who has staff privileges in this course"
-msgstr ""
+msgstr "Everyone who has staff privileges in this policy"
 
 #: lms/static/js/instructor_dashboard/send_email.js:89
 msgid "All learners who are enrolled in this course"
-msgstr ""
+msgstr "All learners who are enrolled in this policy"
 
 #: lms/static/js/instructor_dashboard/send_email.js:91
 msgid "All learners in the {cohort_name} cohort"
@@ -3873,15 +3873,15 @@ msgstr ""
 #: lms/static/js/instructor_dashboard/send_email.js:143
 #: lms/static/js/instructor_dashboard/send_email.js:171
 msgid "There is no email history for this course."
-msgstr ""
+msgstr "There is no email history for this policy."
 
 #: lms/static/js/instructor_dashboard/send_email.js:152
 msgid "There was an error obtaining email task history for this course."
-msgstr ""
+msgstr "There was an error obtaining email task history for this policy."
 
 #: lms/static/js/instructor_dashboard/send_email.js:180
 msgid "There was an error obtaining email content history for this course."
-msgstr ""
+msgstr "There was an error obtaining email content history for this policy."
 
 #: lms/static/js/instructor_dashboard/send_email.js:207
 msgid "Send to:"
@@ -4245,7 +4245,7 @@ msgstr ""
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:220
 msgid "You must select a session to access the course."
-msgstr ""
+msgstr "You must select a session to access the policy."
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:247
 msgid "There was an error. Please reload the page and try again."
@@ -4276,7 +4276,7 @@ msgstr ""
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:324
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:327
 msgid "Any course progress or grades from your current session will be lost."
-msgstr ""
+msgstr "Any policy progress or grades from your current session will be lost."
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:326
 msgid "Are you sure that you want to leave this session?"
@@ -4503,15 +4503,15 @@ msgstr ""
 
 #: lms/static/js/student_account/views/FinishAuthView.js:127
 msgid "Enrolling you in the selected course"
-msgstr ""
+msgstr "Enrolling you in the selected policy"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:159
 msgid "Adding the selected course to your cart"
-msgstr ""
+msgstr "Adding the selected policy to your cart"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:172
 msgid "Loading your courses"
-msgstr ""
+msgstr "Loading your policies"
 
 #: lms/static/js/student_account/views/FormView.js:20
 #: lms/static/js/student_account/views/RegisterView.js:150
@@ -5043,7 +5043,7 @@ msgstr ""
 
 #: lms/static/lms/js/preview/preview_factory.js:13
 msgid "Course is not yet visible to students."
-msgstr ""
+msgstr "Policy is not yet visible to students."
 
 #: lms/static/lms/js/preview/preview_factory.js:24
 msgid ""
@@ -6889,7 +6889,7 @@ msgstr ""
 
 #: cms/templates/js/asset-library.underscore:5
 msgid "List of uploaded files and assets in this course"
-msgstr ""
+msgstr "List of uploaded files and assets in this policy"
 
 #: cms/templates/js/asset-library.underscore:20
 #: cms/templates/js/asset-library.underscore:53
@@ -6910,7 +6910,7 @@ msgstr ""
 
 #: cms/templates/js/asset-library.underscore:67
 msgid "You haven't added any assets to this course yet."
-msgstr ""
+msgstr "You haven't added any assets to this policy yet."
 
 #: cms/templates/js/asset-library.underscore:67
 msgid "Upload your first asset"
@@ -6962,20 +6962,20 @@ msgstr ""
 #: cms/templates/js/certificate-details.underscore:23
 #: cms/templates/js/certificate-editor.underscore:26
 msgid "Course Title"
-msgstr ""
+msgstr "Policy Title"
 
 #: cms/templates/js/certificate-details.underscore:28
 #: cms/templates/js/certificate-editor.underscore:30
 msgid "Course Title Override"
-msgstr ""
+msgstr "Policy Title Override"
 
 #: cms/templates/js/certificate-details.underscore:36
 msgid "Course Number"
-msgstr ""
+msgstr "Policy Number"
 
 #: cms/templates/js/certificate-details.underscore:42
 msgid "Course Number Override"
-msgstr ""
+msgstr "Policy Number Override"
 
 #: cms/templates/js/certificate-details.underscore:53
 #: cms/templates/js/certificate-editor.underscore:36
@@ -7010,7 +7010,7 @@ msgstr ""
 
 #: cms/templates/js/certificate-editor.underscore:31
 msgid "Course title"
-msgstr ""
+msgstr "Policy title"
 
 #: cms/templates/js/certificate-editor.underscore:32
 msgid ""
@@ -7103,7 +7103,7 @@ msgstr ""
 
 #: cms/templates/js/content-visibility-editor.underscore:19
 msgid "Hide content after course end date"
-msgstr ""
+msgstr "Hide content after policy end date"
 
 #: cms/templates/js/content-visibility-editor.underscore:21
 msgid "Hide content after due date"
@@ -7146,7 +7146,7 @@ msgstr ""
 
 #: cms/templates/js/course-highlights-enable.underscore:3
 msgid "Course Highlight Emails"
-msgstr ""
+msgstr "Policy Highlight Emails"
 
 #: cms/templates/js/course-highlights-enable.underscore:7
 msgid "Enabled"
@@ -7221,7 +7221,7 @@ msgstr ""
 
 #: cms/templates/js/course-manage-tags.underscore:3
 msgid "Course tags"
-msgstr ""
+msgstr "Policy tags"
 
 #: cms/templates/js/course-manage-tags.underscore:7
 #: cms/templates/js/tag-list.underscore:28
@@ -7378,7 +7378,7 @@ msgstr ""
 
 #: cms/templates/js/course-outline.underscore:410
 msgid "Subsection is hidden after course end date"
-msgstr ""
+msgstr "Subsection is hidden after policy end date"
 
 #: cms/templates/js/course-outline.underscore:412
 msgid "Subsection is hidden after due date"
@@ -7398,7 +7398,7 @@ msgstr ""
 #: cms/templates/js/course-outline.underscore:457
 #: cms/templates/js/xblock-outline.underscore:57
 msgid "You haven't added any content to this course yet."
-msgstr ""
+msgstr "You haven't added any content to this policy yet."
 
 #: cms/templates/js/course-outline.underscore:461
 #: cms/templates/js/course-outline.underscore:482
@@ -7448,15 +7448,15 @@ msgstr ""
 
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
 msgid "Press update settings to update course video settings"
-msgstr ""
+msgstr "Press update settings to update policy video settings"
 
 #: cms/templates/js/course-video-settings.underscore:7
 msgid "Press close to hide course video settings"
-msgstr ""
+msgstr "Press close to hide policy video settings"
 
 #: cms/templates/js/course-video-settings.underscore:13
 msgid "Course Video Settings"
-msgstr ""
+msgstr "Policy Video Settings"
 
 #: cms/templates/js/course-video-sharing-enable.underscore:3
 msgid "Video Sharing"
@@ -7571,7 +7571,7 @@ msgstr ""
 
 #: cms/templates/js/course_grade_policy.underscore:47
 msgid "There are no assignments of this type in the course."
-msgstr ""
+msgstr "There are no assignments of this type in the policy."
 
 #: cms/templates/js/course_grade_policy.underscore:51
 msgid "{assignment_count} {type} assignment(s) found:"
@@ -7585,7 +7585,7 @@ msgstr ""
 
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
-msgstr ""
+msgstr "Policy Handouts"
 
 #: cms/templates/js/course_info_handouts.underscore:9
 msgid "You have no handouts defined"
@@ -7901,7 +7901,7 @@ msgstr ""
 
 #: cms/templates/js/no-textbooks.underscore:2
 msgid "You haven't added any textbooks to this course yet."
-msgstr ""
+msgstr "You haven't added any textbooks to this policy yet."
 
 #: cms/templates/js/no-textbooks.underscore:2
 msgid "Add your first textbook"
@@ -8226,7 +8226,7 @@ msgstr ""
 
 #: cms/templates/js/staff-lock-editor.underscore:22
 msgid "Hide in Course Outline, accessible via Link"
-msgstr ""
+msgstr "Hide in Policy Outline, accessible via Link"
 
 #: cms/templates/js/staff-lock-editor.underscore:24
 msgid ""
@@ -9086,7 +9086,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/certificates.underscore:17
 msgid "course id"
-msgstr ""
+msgstr "policy id"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:2
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:16
@@ -9096,7 +9096,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:6
 msgid "Course Key"
-msgstr ""
+msgstr "Policy Key"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:8
 msgid "Status"
@@ -9158,15 +9158,15 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:20
 msgid "Course ID"
-msgstr ""
+msgstr "Policy ID"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:21
 msgid "Course Start"
-msgstr ""
+msgstr "Policy Start"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:22
 msgid "Course End"
-msgstr ""
+msgstr "Policy End"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:23
 msgid "Upgrade Deadline"
@@ -9340,7 +9340,7 @@ msgstr ""
 
 #: lms/templates/api_admin/catalog-results.underscore:1
 msgid "This catalog's courses:"
-msgstr ""
+msgstr "This catalog's policies:"
 
 #: lms/templates/ccx/schedule.underscore:3
 msgid "Expand All"
@@ -9791,7 +9791,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:131
 msgid "Only the parent course staff of a CCX can create content groups."
-msgstr ""
+msgstr "Only the parent policy staff of a CCX can create content groups."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:133
 msgid "Create a content group"
@@ -9857,11 +9857,11 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:6
 msgid "Course-Wide Discussion Topics"
-msgstr ""
+msgstr "Policy-Wide Discussion Topics"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:7
 msgid "Select the course-wide discussion topics that you want to divide."
-msgstr ""
+msgstr "Select the policy-wide discussion topics that you want to divide."
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:8
 msgid "Content-Specific Discussion Topics"
@@ -9906,7 +9906,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/course_card.underscore:29
 msgid "You must select a session by {expiration_date} to access the course."
-msgstr ""
+msgstr "You must select a session by {expiration_date} to access the policy."
 
 #: lms/templates/learner_dashboard/course_card.underscore:33
 msgid "You can no longer change sessions."
@@ -9918,11 +9918,11 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:5
 msgid "View Archived Course"
-msgstr ""
+msgstr "View Archived Policy"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:7
 msgid "View Course"
-msgstr ""
+msgstr "View Policy"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:15
 msgid "Select a session:"
@@ -9955,7 +9955,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:9
 msgid "To access the course, select a session."
-msgstr ""
+msgstr "To access the policy, select a session."
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:15
 msgid "Session Selection Dropdown for {courseName}"
@@ -10000,7 +10000,7 @@ msgstr ""
 #: lms/templates/learner_dashboard/program_card.underscore:32
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
 msgid "Course"
-msgid_plural "Courses"
+msgid_plural "Policies"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -10088,7 +10088,7 @@ msgstr ""
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:52
 #: lms/templates/learner_dashboard/program_details_view.underscore:28
 msgid "Upgrade All Remaining Courses ("
-msgstr ""
+msgstr "Upgrade All Remaining Policies ("
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:56
 #: lms/templates/learner_dashboard/program_details_view.underscore:32
@@ -10103,22 +10103,22 @@ msgstr ""
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:73
 #: lms/templates/learner_dashboard/program_details_view.underscore:49
 msgid "COURSES IN PROGRESS"
-msgstr ""
+msgstr "POLICIES IN PROGRESS"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:82
 #: lms/templates/learner_dashboard/program_details_view.underscore:58
 msgid "REMAINING COURSES"
-msgstr ""
+msgstr "REMAINING POLICIES"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:90
 #: lms/templates/learner_dashboard/program_details_view.underscore:66
 msgid "COMPLETED COURSES"
-msgstr ""
+msgstr "COMPLETED POLICIES"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:97
 #: lms/templates/learner_dashboard/program_details_view.underscore:73
 msgid "As you complete courses, you will see them listed here."
-msgstr ""
+msgstr "As you complete policies, you will see them listed here."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:98
 #: lms/templates/learner_dashboard/program_details_view.underscore:74
@@ -10372,11 +10372,11 @@ msgstr ""
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
 msgid "A list of courses you have just enrolled in as a verified student"
-msgstr ""
+msgstr "A list of policies you have just enrolled in as a verified student"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:31
 msgid "Explore your course!"
-msgstr ""
+msgstr "Explore your policy!"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:35
 msgid "Go to your Dashboard"
